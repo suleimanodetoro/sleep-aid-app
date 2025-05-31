@@ -1,3 +1,5 @@
+// constants/Colors.ts
+// Basic color definitions for MVP
 const tintColorLight = '#2f95dc';
 const tintColorDark = '#fff';
 
@@ -11,7 +13,7 @@ export default {
   },
   dark: {
     text: '#fff',
-    background: '#000',
+    background: '#000', // Will be overridden by Tailwind bg-neutral-900 etc.
     tint: tintColorDark,
     tabIconDefault: '#ccc',
     tabIconSelected: tintColorDark,
